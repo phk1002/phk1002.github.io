@@ -3,9 +3,13 @@ I am me
 <<<<<<< HEAD
 
 true statement
+
 yes
 
-
+<<<<<<< HEAD
 kjjkjkjkjkjkjkjk
 =======
 >>>>>>> parent of 4913ff6... added a statment
+=======
+wow i think i got how to use GH only a little though.
+>>>>>>> parent of 7019c55... ok
