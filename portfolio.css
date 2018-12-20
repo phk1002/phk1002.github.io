@@ -1,0 +1,27 @@
+.side-container{
+display: flex;
+flex-direction: column;
+margin: 0 auto;
+justify-content: space-between;
+font-size: 20px;
+}
+
+.img-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  align-self: center;
+}
+
+img{
+  height: 150px;
+  width:150px;
+}
+.port-img{
+  height:300px;
+  width:250px;
+}
+.port{
+  text-align: center;
+}
