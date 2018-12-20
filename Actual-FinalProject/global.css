@@ -1,0 +1,117 @@
+/* CSS RESET */
+* {
+  padding: 0;
+  margin:0;
+}
+
+*,
+*::before, 
+*::after {
+  box-sizing: inherit;
+}
+
+html{
+  font-size: 63.5%;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 800px;
+  height:200vh;
+  background-color: lightgray;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nav{
+  flex: 0 0 50px;
+  background-color: #ADFF2F;
+
+}
+.content{
+  background-color: maroon;
+  flex: 1;
+  display: flex;
+
+}
+.main{
+  background-color: #9370DB;
+  flex: 0 0 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+.side-container{
+display:flex;
+flex-direction: column;
+margin: 0 auto;
+justify-content: space-around;
+font-size: 20px;
+}
+.side-img{
+  height: 150px;
+  width: 150px;
+}
+.gallery{
+background-color: indigo;
+flex: 1;
+margin: 5px;
+display: flex;
+justify-content: space-around;
+padding: 1rem;
+}
+
+.img-container{
+  display: flex;
+  flex: auto;
+  justify-content: space-between;
+}
+
+.blog-post{
+background-color: AliceBlue;
+border: 1px solid black;
+flex:1;
+margin: 5px;
+}
+.side{
+  background-color: skyblue;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.foot{
+  flex: 0 0 50px;
+  background-color: #ADFF2F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 2rem;
+}
+/* NAVIGATION*/
+.nav-list{
+  list-style-type: none;
+  background-color: #9370DB;
+  height: 100%;
+  display: flex;
+  font-size: 15px;
+}
+.nav-item{
+  flex: 1;
+  border: 1px solid black;
+  background-color: AliceBlue;
+  display: flex;
+}
+.nav-item a{
+  color: black;
+  text-decoration: none;
+  flex:1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
